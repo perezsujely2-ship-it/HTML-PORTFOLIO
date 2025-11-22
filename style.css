@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#aboutMe p{
+    font-family: 'Lucida Handwriting';
+}
+#footer {
+    display: flex;
+
+    justify-content: center;
+    align-items: end;
+    color: black;
+    background-color: white;
+}
