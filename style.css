@@ -7,6 +7,18 @@ body{
     min-height: 100%;
 }
 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1vh;
+    background-color: white;
+    color:cornflowerblue
+}
+.navbar a,.navbar a:visited{
+    text-decoration: none;
+    color:cornflowerblue
+}
 #aboutMe p{
     font-family: 'Lucida Handwriting';
 }
@@ -17,4 +29,15 @@ body{
     align-items: end;
     color: black;
     background-color: white;
+}
+
+.contactme div, #contactform form{
+    display: flex;
+    flex-direction: column;
+
+}
+#contactform form div{
+    display: flex;
+    flex-direction: row;
+
 }
