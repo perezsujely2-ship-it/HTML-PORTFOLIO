@@ -6,32 +6,37 @@
     <link rel="stylesheet" href="style.css">
     <title>Sujely - Portfolio</title>
 </head>
-<body class="contactme">
+<body class="spacebetween">
     <div class="navbar">
         <a href="index.html">Sujely's Portfolio</a>
-        <a href="home.html">Home</a>
+        <a href="Projects.html">Projects</a>
         <a href="contactme.html">Contact Me</a>
     </div>
-    
-    <div id="contactinfo">
-        <h2>Sujely Perez</h2>
-        <h3>blank@mail.com</h3>
-        <h3>(501) 600 - 0000</h3>
-    </div>
-    <div id="contactform">
-        <form action="" method="get">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="">
+    <div id="panel">
+        <div id="v-panel">
+            <div id="contactinfo" class="form">
+                <h2>Sujely Perez</h2>
+                <h3>perezsujely2@gmail.com</h3>
+                <h3>(+1 281) 617 8814</h3>
             </div>
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="text" name="email" id="">
+        </div>
+        <div id="v-panel">
+            <div id="contactform" class="form">
+                <form action="" method="get">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="">
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="email" id="">
+                    </div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" ></textarea>
+                    <button type="submit">Send</button>
+                </form>
             </div>
-            <label for="message">Message:</label>
-            <input type="textarea" name="message" id="">
-            <button type="submit">Send</button>
-        </form>
+        </div>
     </div>
 
     <div id="footer">
